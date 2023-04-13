@@ -1,15 +1,11 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
-
-body{
-    background-color: #EAEAEA;
 }
 
 .container{
@@ -17,16 +13,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #EAEAEA;
 }
 .main{
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 50%;
+    width: 90%;
+    max-width: 650px;
     height: 700px;
     background-color: white;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .title{
@@ -35,12 +33,31 @@ body{
     color: black;
 }
 
-.title-image{
+figure{
     margin-top: 2%;
     width: 90%;
-    height: 50%;
+    height: 60%;
     border-radius: 5px;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+figure img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+figcaption{
+    width: 90%;
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    margin-top: 1%;
+    color: #8F8F8F;
 }
 
 .header{
@@ -49,5 +66,71 @@ body{
     align-items: center;
     width: 100%;
     height: 50%;
-    border: 1px solid rgb(114, 177, 58);
+}
+
+h3{
+    font-family: 'Courgette', sans-serif;
+    font-size: 24px;
+}
+
+h5{
+    font-size: 17px;
+}
+
+.ingredientes{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-ingredientes{
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.lista-ingredientes ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.preparo{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-preparo{
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.lista-preparo ol{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.infos{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-infos{
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
 }
