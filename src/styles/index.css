@@ -38,7 +38,7 @@ figure{
     width: 90%;
     height: 210px;
     border-radius: 5px;
-    border: 1px solid blue;
+    border: 2px solid #432614;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,4 +137,19 @@ h5{
     display: flex;
     justify-content: flex-start;
     width: 90%;
+}
+
+@media (max-width: 500px) {
+    .main {
+        margin-top: 3%;
+        margin-bottom: 6%;
+    }
+
+    .add-infos{
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
