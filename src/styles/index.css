@@ -1,6 +1,6 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
 * {
     margin: 0;
@@ -34,7 +34,7 @@
 }
 
 figure{
-    margin-top: 2%;
+    margin-top: 1%;
     width: 90%;
     height: 210px;
     border-radius: 5px;
@@ -71,8 +71,8 @@ figcaption{
 }
 
 h3{
-    font-family: 'Courgette', sans-serif;
-    font-size: 24px;
+    font-family: 'Alkatra', cursive;
+    font-size: 23px;
 }
 
 h5{
